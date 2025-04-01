@@ -39,6 +39,44 @@ export default function HomePage() {
         </motion.div>
       </section>
 
+      {/* Projects */}
+      <section className="py-20 px-8 bg-gray-950">
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}
+          className="max-w-5xl mx-auto"
+        >
+          <h2 className="text-3xl font-bold mb-10 text-center">Projects</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <a href="https://github.com/JamesPortfolioProjects/edgar-financial-extractor" target="_blank" rel="noopener noreferrer" className="bg-gray-800 p-6 rounded-xl hover:bg-gray-700 transition">
+              <h3 className="text-2xl font-semibold mb-2">SEC EDGAR Financial Extractor</h3>
+              <p className="text-gray-400 text-sm">
+                Python pipeline that scrapes and parses 10-K filings from EDGAR using AI-based tagging and exports clean financial statements into Excel.
+              </p>
+            </a>
+            <div className="bg-gray-800 p-6 rounded-xl">
+              <h3 className="text-2xl font-semibold mb-2">AI Shopping Assistant (In Progress)</h3>
+              <p className="text-gray-400 text-sm">
+                Building a real-time AI-powered product recommendation engine that combines scraping, embeddings, and smart UI to save time and money.
+              </p>
+            </div>
+            <div className="bg-gray-800 p-6 rounded-xl">
+              <h3 className="text-2xl font-semibold mb-2">Global Deaf Research Dashboard</h3>
+              <p className="text-gray-400 text-sm">
+                Tableau data visualization project analyzing deaf community metrics worldwide. Focused on accessibility, education, and resource distribution.
+              </p>
+            </div>
+            <div className="bg-gray-800 p-6 rounded-xl">
+              <h3 className="text-2xl font-semibold mb-2">Portfolio Site with 3D Data Stream (This Site)</h3>
+              <p className="text-gray-400 text-sm">
+                Cinematic developer portfolio built with React, Next.js, Tailwind, Framer Motion — featuring a planned 3D interactive data world intro.
+              </p>
+            </div>
+          </div>
+        </motion.div>
+      </section>
+
       {/* Contact */}
       <section className="py-20 px-8">
         <motion.div
