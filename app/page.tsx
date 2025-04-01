@@ -12,9 +12,9 @@ export default function HomePage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">Hi, I'm Hunter Harris</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">Hi, I&apos;m Hunter Harris</h1>
           <p className="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto">
-            Engineer. Data Analyst and Scientist. Lover of AI. Creating what's in my head.
+            Engineer. Data Analyst and Scientist. Lover of AI. Creating what&#39;s in my head.
           </p>
         </motion.div>
       </section>
@@ -49,7 +49,7 @@ export default function HomePage() {
         >
           <h2 className="text-3xl font-bold mb-4">Get in Touch</h2>
           <p className="text-gray-400 mb-6">
-            Let’s connect! Reach me via email or check out my GitHub.
+            Let&apos;s connect! Reach me via email or check out my GitHub.
           </p>
           <div className="space-x-6">
             <a
