@@ -58,20 +58,42 @@ export default function HomePage() {
             <div className="bg-gray-800 p-6 rounded-xl">
               <h3 className="text-2xl font-semibold mb-2">AI Shopping Assistant (In Progress)</h3>
               <p className="text-gray-400 text-sm">
-                Building a real-time AI-powered product recommendation engine that combines scraping, embeddings, and smart UI to save time and money.
+                Real-time AI-powered product recommendation engine combining scraping, embeddings, and smart UI.
               </p>
             </div>
             <div className="bg-gray-800 p-6 rounded-xl">
               <h3 className="text-2xl font-semibold mb-2">Global Deaf Research Dashboard</h3>
               <p className="text-gray-400 text-sm">
-                Tableau data visualization project analyzing deaf community metrics worldwide. Focused on accessibility, education, and resource distribution.
+                Tableau visualization project exploring data for the Global Deaf community: accessibility, education, outreach.
               </p>
             </div>
             <div className="bg-gray-800 p-6 rounded-xl">
-              <h3 className="text-2xl font-semibold mb-2">Portfolio Site with 3D Data Stream (This Site)</h3>
+              <h3 className="text-2xl font-semibold mb-2">Portfolio Site (This Site)</h3>
               <p className="text-gray-400 text-sm">
-                Cinematic developer portfolio built with React, Next.js, Tailwind, Framer Motion — featuring a planned 3D interactive data world intro.
+                Developer portfolio using React, Next.js, Tailwind, and Framer Motion. Includes interactive scenes and 3D visual intro (coming soon).
               </p>
+            </div>
+          </div>
+        </motion.div>
+      </section>
+
+      {/* Experience */}
+      <section className="py-20 px-8 bg-gray-900">
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}
+          className="max-w-3xl mx-auto"
+        >
+          <h2 className="text-3xl font-bold mb-8 text-center">Experience</h2>
+          <div className="space-y-8 text-gray-300">
+            <div>
+              <h3 className="text-xl font-semibold">Data Science Intern – AI Labs (2024)</h3>
+              <p className="text-sm">Worked on training and deploying machine learning models for internal analytics dashboards. Contributed to data cleaning pipeline using Python & Pandas.</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold">Student Developer – Louisiana Tech University</h3>
+              <p className="text-sm">Collaborated on student-led engineering demos and coursework involving financial modeling, dashboard creation, and basic AI tool integrations.</p>
             </div>
           </div>
         </motion.div>
