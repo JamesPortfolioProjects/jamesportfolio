@@ -12,7 +12,7 @@ export default function HomePage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">Hi, I'm James</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">Hi, I'm Hunter Harris</h1>
           <p className="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto">
             Engineer. Data Analyst and Scientist. Lover of AI. Creating what’s in my head.
           </p>
@@ -53,13 +53,13 @@ export default function HomePage() {
           </p>
           <div className="space-x-6">
             <a
-              href="mailto:your@email.com"
+              href="mailto:importantemailsforjames@gmail.com"
               className="underline text-blue-400 hover:text-blue-300"
             >
               Email
             </a>
             <a
-              href="https://github.com/yourgithub"
+              href="https://github.com/JamesPortfolioProjects"
               className="underline text-blue-400 hover:text-blue-300"
               target="_blank"
               rel="noopener noreferrer"
