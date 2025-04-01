@@ -14,7 +14,7 @@ export default function HomePage() {
         >
           <h1 className="text-4xl md:text-6xl font-bold mb-4">Hi, I'm Hunter Harris</h1>
           <p className="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto">
-            Engineer. Data Analyst and Scientist. Lover of AI. Creating what’s in my head.
+            Engineer. Data Analyst and Scientist. Lover of AI. Creating what's in my head.
           </p>
         </motion.div>
       </section>
